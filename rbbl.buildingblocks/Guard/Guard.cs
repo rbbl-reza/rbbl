@@ -62,7 +62,7 @@ public static class Guard
     {
         if (value is not null && value.Length > maxLength)
             throw new ArgumentException($"Maximum length is {maxLength}.", paramName);
-        return value;
+        return value!;
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
