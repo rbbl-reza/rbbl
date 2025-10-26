@@ -4,13 +4,26 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <UserSecretsId>8977a606-5747-4020-abcc-98bce032715b</UserSecretsId>
+    <!-- NuGet Package Properties -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>RBBL.BuildingBlocks</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Reza Imankhan</Authors>
+    <Description>BuildingBlocks to apply Clean Architecture pattern to your application.</Description>
+    <PackageProjectUrl>https://github.com/rbbl-reza/rbbl</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rbbl-reza/rbbl.git</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <!-- Include symbols for debugging -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Serilog" Version="4.3.0" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="9.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
