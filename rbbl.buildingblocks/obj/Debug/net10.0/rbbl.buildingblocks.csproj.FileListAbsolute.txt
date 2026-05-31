@@ -1,0 +1,13 @@
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/bin/Debug/net10.0/rbbl.buildingblocks.deps.json
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/bin/Debug/net10.0/rbbl.buildingblocks.dll
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/bin/Debug/net10.0/rbbl.buildingblocks.pdb
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.csproj.AssemblyReference.cache
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.AssemblyInfoInputs.cache
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.AssemblyInfo.cs
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.csproj.CoreCompileInputs.cache
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.sourcelink.json
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.dll
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/refint/rbbl.buildingblocks.dll
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.pdb
+/Users/rezaimankhan/Documents/repos/rbbl/rbbl.buildingblocks/obj/Debug/net10.0/ref/rbbl.buildingblocks.dll
