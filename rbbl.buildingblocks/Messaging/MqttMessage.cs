@@ -1,4 +1,4 @@
-namespace rbbl.buildingblocks.Messaging;
+namespace rbbl.buildingblocks.messaging;
 
 /// <summary>
 /// Lightweight DTO for internal use (e.g., logging, testing).

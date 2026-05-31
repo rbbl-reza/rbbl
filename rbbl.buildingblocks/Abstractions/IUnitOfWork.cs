@@ -1,6 +1,6 @@
-namespace rbbl.buildingblocks.Abstractions;
+namespace rbbl.buildingblocks.abstractions;
 
 public interface IUnitOfWork
 {
-    Task<int> SaveChangesAsync(CancellationToken ct = default);
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }

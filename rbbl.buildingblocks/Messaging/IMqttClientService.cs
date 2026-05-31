@@ -1,4 +1,4 @@
-namespace rbbl.buildingblocks.Messaging;
+namespace rbbl.buildingblocks.messaging;
 
 /// <summary>
 /// Abstraction for MQTT messaging. No external dependencies here;

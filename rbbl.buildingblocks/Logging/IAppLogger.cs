@@ -1,4 +1,4 @@
-namespace rbbl.buildingblocks.Logging;
+namespace rbbl.buildingblocks.logging;
 
 public interface IAppLogger<T>
 {

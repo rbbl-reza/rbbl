@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace rbbl.buildingblocks.Guard;
+namespace rbbl.buildingblocks.guard;
 
 public static class Guard
 {

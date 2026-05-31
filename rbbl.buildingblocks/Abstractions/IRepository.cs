@@ -1,13 +1,13 @@
 using System.Linq.Expressions;
-using rbbl.buildingblocks.DomainDriven;
+using rbbl.buildingblocks.domain;
 
-namespace rbbl.buildingblocks.Abstractions;
+namespace rbbl.buildingblocks.abstractions;
 
-public interface IRepository<T> where T : BaseEntity
+public interface IRepository<TId> where TId : BaseEntity<TId>
 {
-    Task<T?> GetByIdAsync(Guid id, CancellationToken ct = default);
-    Task AddAsync(T entity, CancellationToken ct = default);
-    Task UpdateAsync(T entity, CancellationToken ct = default);
-    Task DeleteAsync(T entity, CancellationToken ct = default);
-    IQueryable<T> Query(Expression<Func<T, bool>>? predicate = null);
+    Task<TId?> GetByIdAsync(Guid id, CancellationToken ct = default);
+    Task AddAsync(TId entity, CancellationToken ct = default);
+    Task UpdateAsync(TId entity, CancellationToken ct = default);
+    Task DeleteAsync(TId entity, CancellationToken ct = default);
+    IQueryable<TId> Query(Expression<Func<TId, bool>>? predicate = null);
 }

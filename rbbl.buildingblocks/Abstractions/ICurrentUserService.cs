@@ -1,4 +1,4 @@
-namespace rbbl.buildingblocks.Abstractions;
+namespace rbbl.buildingblocks.abstractions;
 
 public interface ICurrentUserService
 {

@@ -1,18 +1,32 @@
-namespace rbbl.buildingblocks.Results;
+namespace rbbl.buildingblocks.results;
 
 public class Result
 {
-    public bool IsSuccess { get; }
-    public string? Error { get; }
-    protected Result(bool success, string? error) { IsSuccess = success; Error = error; }
-    public static Result Success() => new(true, null);
-    public static Result Failure(string error) => new(false, error);
-}
+    protected Result(bool isSuccess, Error error)
+    {
+        if (isSuccess && error != Error.None)
+            throw new InvalidOperationException("A successful result cannot contain an error.");
 
-public class Result<T> : Result
-{
-    public T? Value { get; }
-    private Result(bool success, string? error, T? value) : base(success, error) { Value = value; }
-    public static Result<T> Success(T value) => new(true, null, value);
-    public static new Result<T> Failure(string error) => new(false, error, default);
+        if (!isSuccess && error == Error.None)
+            throw new InvalidOperationException("A failed result must contain an error.");
+
+        IsSuccess = isSuccess;
+        Error = error;
+    }
+
+    public bool IsSuccess { get; }
+
+    public bool IsFailure => !IsSuccess;
+
+    public Error Error { get; }
+
+    public static Result Success()
+    {
+        return new Result(true, Error.None);
+    }
+
+    public static Result Failure(Error error)
+    {
+        return new Result(false, error);
+    }
 }

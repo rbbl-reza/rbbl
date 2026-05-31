@@ -1,6 +1,6 @@
 using Serilog;
 
-namespace rbbl.buildingblocks.Logging;
+namespace rbbl.buildingblocks.logging;
 
 public class SerilogLogger<T> : IAppLogger<T>
 {
