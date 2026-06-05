@@ -48,3 +48,8 @@ rbbl.buildingblocks/obj/Release/net9.0/refint/rbbl.buildingblocks.dll
 /.vs/rbbl.base
 /rbbl.buildingblocks/obj
 /rbbl.buildingblocks/bin/Release
+/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.AssemblyInfo.cs
+/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.AssemblyInfoInputs.cache
+/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.assets.cache
+/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.csproj.AssemblyReference.cache
+/rbbl.buildingblocks/obj/Debug/net10.0/rbbl.buildingblocks.GeneratedMSBuildEditorConfig.editorconfig
