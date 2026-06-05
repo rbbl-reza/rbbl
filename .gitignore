@@ -45,3 +45,5 @@ rbbl.buildingblocks/obj/Release/net9.0/rbbl.buildingblocks.pdb
 rbbl.buildingblocks/obj/Release/net9.0/rbbl.buildingblocks.sourcelink.json
 rbbl.buildingblocks/obj/Release/net9.0/ref/rbbl.buildingblocks.dll
 rbbl.buildingblocks/obj/Release/net9.0/refint/rbbl.buildingblocks.dll
+/.vs/rbbl.base
+rbbl.buildingblocks/obj/*
